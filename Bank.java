@@ -1,7 +1,7 @@
 public class Bank{
   public double balance;
 
-  public Account(double iBal){
+  public Bank(double iBal){
     if(iBal<0)
        throw new illegalArgumentException("Zero balance");
     this.balance=iBal;
